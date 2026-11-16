@@ -1,0 +1,1 @@
+import "./globals.css"; export const metadata = { title: "Tropical Tic-Tac-Toe", description: "Tic-Tac-Toe by Rafael Race" }; export default function RootLayout({ children }: { children: React.ReactNode }) {   return <html lang="en"><body>{children}</body></html>; } 
